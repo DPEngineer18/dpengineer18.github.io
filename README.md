@@ -1,2 +1,2 @@
-# DPengineer18 Website
+# DPEngineer18 Website
 Repository for my personal website including my personal projects, experience and links
