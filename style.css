@@ -88,8 +88,11 @@ body.locked header {
 }
 
 #name {
-  cursor: pointer;
   transition: opacity 0.8s ease;
+}
+
+body.locked #name {
+  cursor: pointer;
 }
 
 #name.hidden {
