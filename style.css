@@ -21,6 +21,10 @@ body {
   background-color: #000000;
   color: #ffffff;    
 }
+img {
+    max-width: 100%;
+    height: auto;
+  }
 
 header {
     font-family: 'Philosopher', serif;
@@ -73,4 +77,41 @@ footer {
 a {
     font-family: 'Philosopher', serif;
   color: #ffffff;
+}
+
+body.locked header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#name {
+  cursor: pointer;
+  transition: opacity 0.8s ease;
+}
+
+#name.hidden {
+  opacity: 0;
+}
+
+
+.content {
+  opacity: 0;
+  visibility: hidden;       
+}
+
+body.unlocked .content {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1.2s ease;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  #name,
+  body.unlocked .content {
+    transition: none;
+  }
 }
