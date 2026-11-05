@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Redaction50', serif;
   margin: 0;
   padding: 0;
   background-color: #000000;
@@ -23,6 +23,7 @@ body {
 }
 
 header {
+    font-family: 'Redaction50', serif;
   text-align: center;
 }
 
@@ -31,6 +32,7 @@ h1, h2 {
 }
 
 main {
+    font-family: 'Redaction50', serif;
   max-width: 800px; 
   margin: 0 auto;
   padding: 0 1rem;
@@ -42,5 +44,6 @@ footer {
 }
 
 a {
+    font-family: 'Redaction50', serif;
   color: #ffffff;
 }
