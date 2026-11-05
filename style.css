@@ -34,7 +34,7 @@ body::before {
   position: fixed;
   inset: 0;
   z-index: -1;
-  background-image: linear-gradient(to bottom, #000000 0%, #000000 40%, #646464 100%);
+  background-image: linear-gradient(to bottom, #000000 0%, #000000 50%, #646464 100%);
 }
 
 
