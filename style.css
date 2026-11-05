@@ -52,6 +52,11 @@ summary::before {
   content: '+ ';           
 }
 
+summary h2 {
+    display:inline;
+    margin: 0;
+}
+
 details[open] > summary::before {
   content: '− ';           
 }
