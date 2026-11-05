@@ -22,7 +22,7 @@ html {
 
 body {
   font-family: 'Philosopher', serif;  
-  color: #ffffff;
+  color: #b3b3b3;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -59,7 +59,7 @@ footer {
 }
 
 a {
-  color: #ffffff;
+  color: #b3b3b3;
 }
 
 details {
