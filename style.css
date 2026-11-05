@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Redaction50';
+  src: url('fonts/Redaction50/Redaction50-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Redaction50';
+  src: url('fonts/Redaction50/Redaction50-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;    
+}
+
+header {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Redaction50', serif;
+}
+
+main {
+  max-width: 800px; 
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+a {
+  color: #ffffff;
+}
